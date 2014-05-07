@@ -19,6 +19,7 @@
 		72BFB48F1919098B00F1A8C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BFB4771919098B00F1A8C8 /* UIKit.framework */; };
 		72BFB4971919098B00F1A8C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72BFB4951919098B00F1A8C8 /* InfoPlist.strings */; };
 		72BFB4991919098B00F1A8C8 /* PegJumperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFB4981919098B00F1A8C8 /* PegJumperTests.m */; };
+		72BFB4AD1919FD1200F1A8C8 /* PegData.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFB4AC1919FD1200F1A8C8 /* PegData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		72BFB4941919098B00F1A8C8 /* PegJumperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PegJumperTests-Info.plist"; sourceTree = "<group>"; };
 		72BFB4961919098B00F1A8C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72BFB4981919098B00F1A8C8 /* PegJumperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PegJumperTests.m; sourceTree = "<group>"; };
+		72BFB4AB1919FD1200F1A8C8 /* PegData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PegData.h; sourceTree = "<group>"; };
+		72BFB4AC1919FD1200F1A8C8 /* PegData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PegData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				72BFB4831919098B00F1A8C8 /* AppDelegate.m */,
 				72BFB4851919098B00F1A8C8 /* Images.xcassets */,
 				72BFB47A1919098B00F1A8C8 /* Supporting Files */,
+				72BFB4AB1919FD1200F1A8C8 /* PegData.h */,
+				72BFB4AC1919FD1200F1A8C8 /* PegData.m */,
 			);
 			path = PegJumper;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72BFB4841919098B00F1A8C8 /* AppDelegate.m in Sources */,
+				72BFB4AD1919FD1200F1A8C8 /* PegData.m in Sources */,
 				72BFB4801919098B00F1A8C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
