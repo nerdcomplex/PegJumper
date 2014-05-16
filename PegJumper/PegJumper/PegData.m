@@ -10,7 +10,7 @@
 
 @implementation PegData
 
-//I've figured out how to do stuff with a triangle, but I don't think my methods will work with other layouts — they'll need a little bit of tweaking at the very least. We'll talk about it on Thursday, but for now I'm giving this class a format variable, which tells us what the board layout is.
+//I've figured out how to do stuff with a triangle and plus, but I don't think my methods will work with other layouts — they'll need a little bit of tweaking at the very least. We'll talk about it on Thursday, but for now I'm giving this class a format variable, which tells us what the board layout is.
 
 -(id)init: (NSString*)name : (int)size
 {

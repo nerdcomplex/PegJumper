@@ -5,8 +5,18 @@
 //  Created by brshapiro on 5/6/14.
 //
 //
+#import <AVFoundation/AVFoundation.h>
+
 #import "AppDelegate.h"
 #import "PegData.h"
+#import "HellBunny.h"
+#import "MusicDelegate.h"
+
+@interface AppDelegate ()
+
+@property (strong,nonatomic) MusicDelegate *delegate;
+
+@end
 
 @implementation AppDelegate
 
@@ -14,6 +24,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    NSLog(@"%@",[[NSBundle mainBundle] resourcePath]);
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
