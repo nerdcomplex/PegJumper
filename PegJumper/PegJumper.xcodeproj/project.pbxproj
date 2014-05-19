@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		72184A3919257E260008211F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72184A3819257E260008211F /* AVFoundation.framework */; };
 		72184A3E192588640008211F /* MusicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72184A3D192588640008211F /* MusicDelegate.m */; };
+		727FC14C1929597900682CF9 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727FC14B1929597900682CF9 /* BoardView.m */; };
 		72BFB4741919098B00F1A8C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BFB4731919098B00F1A8C8 /* Foundation.framework */; };
 		72BFB4761919098B00F1A8C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BFB4751919098B00F1A8C8 /* CoreGraphics.framework */; };
 		72BFB4781919098B00F1A8C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BFB4771919098B00F1A8C8 /* UIKit.framework */; };
@@ -22,7 +23,16 @@
 		72BFB4971919098B00F1A8C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72BFB4951919098B00F1A8C8 /* InfoPlist.strings */; };
 		72BFB4991919098B00F1A8C8 /* PegJumperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFB4981919098B00F1A8C8 /* PegJumperTests.m */; };
 		72BFB4AD1919FD1200F1A8C8 /* PegData.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFB4AC1919FD1200F1A8C8 /* PegData.m */; };
-		72C0809E1922463000C02E02 /* HellBunny.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C0809D1922463000C02E02 /* HellBunny.m */; };
+		72CAE96719293BB600E8CEA5 /* HellBunny.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAE96619293BB600E8CEA5 /* HellBunny.m */; };
+		72CAE96B19293BED00E8CEA5 /* PegButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAE96A19293BED00E8CEA5 /* PegButton.m */; };
+		72CAE96E19293BF900E8CEA5 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAE96D19293BF900E8CEA5 /* GameView.m */; };
+		72CAE97219293C0600E8CEA5 /* Blue Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CAE97119293C0600E8CEA5 /* Blue Dot.png */; };
+		72CAE97419293DC900E8CEA5 /* Black Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CAE97319293DC900E8CEA5 /* Black Dot.png */; };
+		72CAE97619293F5800E8CEA5 /* Purple Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CAE97519293F5800E8CEA5 /* Purple Dot.png */; };
+		72CAE9781929412C00E8CEA5 /* Light Blue Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CAE9771929412C00E8CEA5 /* Light Blue Dot.png */; };
+		72CAE97B1929469000E8CEA5 /* UnforgivingBlade.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 72CAE97A1929469000E8CEA5 /* UnforgivingBlade.m4a */; };
+		72CAE97D192946C600E8CEA5 /* ThroughTheFireAndFlames.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 72CAE97C192946C600E8CEA5 /* ThroughTheFireAndFlames.m4a */; };
+		72CAE97F192946D000E8CEA5 /* CarolusRex(Sv).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 72CAE97E192946D000E8CEA5 /* CarolusRex(Sv).m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +49,8 @@
 		72184A3819257E260008211F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		72184A3C192588640008211F /* MusicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDelegate.h; sourceTree = "<group>"; };
 		72184A3D192588640008211F /* MusicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDelegate.m; sourceTree = "<group>"; };
+		727FC14A1929597900682CF9 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		727FC14B1929597900682CF9 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
 		72BFB4701919098B00F1A8C8 /* PegJumper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PegJumper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BFB4731919098B00F1A8C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72BFB4751919098B00F1A8C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +69,19 @@
 		72BFB4981919098B00F1A8C8 /* PegJumperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PegJumperTests.m; sourceTree = "<group>"; };
 		72BFB4AB1919FD1200F1A8C8 /* PegData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PegData.h; sourceTree = "<group>"; };
 		72BFB4AC1919FD1200F1A8C8 /* PegData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PegData.m; sourceTree = "<group>"; };
-		72C0809C1922463000C02E02 /* HellBunny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HellBunny.h; path = ../HellBunny.h; sourceTree = "<group>"; };
-		72C0809D1922463000C02E02 /* HellBunny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HellBunny.m; path = ../HellBunny.m; sourceTree = "<group>"; };
+		72CAE96619293BB600E8CEA5 /* HellBunny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellBunny.m; sourceTree = "<group>"; };
+		72CAE96819293BBE00E8CEA5 /* HellBunny.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HellBunny.h; sourceTree = "<group>"; };
+		72CAE96919293BED00E8CEA5 /* PegButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PegButton.h; sourceTree = "<group>"; };
+		72CAE96A19293BED00E8CEA5 /* PegButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PegButton.m; sourceTree = "<group>"; };
+		72CAE96C19293BF900E8CEA5 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		72CAE96D19293BF900E8CEA5 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		72CAE97119293C0600E8CEA5 /* Blue Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Dot.png"; sourceTree = SOURCE_ROOT; };
+		72CAE97319293DC900E8CEA5 /* Black Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Dot.png"; sourceTree = SOURCE_ROOT; };
+		72CAE97519293F5800E8CEA5 /* Purple Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Purple Dot.png"; sourceTree = SOURCE_ROOT; };
+		72CAE9771929412C00E8CEA5 /* Light Blue Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Blue Dot.png"; sourceTree = SOURCE_ROOT; };
+		72CAE97A1929469000E8CEA5 /* UnforgivingBlade.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = UnforgivingBlade.m4a; path = ../UnforgivingBlade.m4a; sourceTree = "<group>"; };
+		72CAE97C192946C600E8CEA5 /* ThroughTheFireAndFlames.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = ThroughTheFireAndFlames.m4a; path = ../ThroughTheFireAndFlames.m4a; sourceTree = "<group>"; };
+		72CAE97E192946D000E8CEA5 /* CarolusRex(Sv).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CarolusRex(Sv).m4a"; path = "../CarolusRex(Sv).m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,16 +143,29 @@
 		72BFB4791919098B00F1A8C8 /* PegJumper */ = {
 			isa = PBXGroup;
 			children = (
-				72C0809C1922463000C02E02 /* HellBunny.h */,
-				72C0809D1922463000C02E02 /* HellBunny.m */,
 				72BFB4821919098B00F1A8C8 /* AppDelegate.h */,
 				72BFB4831919098B00F1A8C8 /* AppDelegate.m */,
-				72BFB4851919098B00F1A8C8 /* Images.xcassets */,
-				72BFB47A1919098B00F1A8C8 /* Supporting Files */,
+				72CAE96C19293BF900E8CEA5 /* GameView.h */,
+				72CAE96D19293BF900E8CEA5 /* GameView.m */,
+				72CAE96919293BED00E8CEA5 /* PegButton.h */,
+				72CAE96A19293BED00E8CEA5 /* PegButton.m */,
 				72BFB4AB1919FD1200F1A8C8 /* PegData.h */,
 				72BFB4AC1919FD1200F1A8C8 /* PegData.m */,
+				727FC14A1929597900682CF9 /* BoardView.h */,
+				727FC14B1929597900682CF9 /* BoardView.m */,
+				72BFB4851919098B00F1A8C8 /* Images.xcassets */,
+				72BFB47A1919098B00F1A8C8 /* Supporting Files */,
+				72CAE96819293BBE00E8CEA5 /* HellBunny.h */,
+				72CAE96619293BB600E8CEA5 /* HellBunny.m */,
 				72184A3C192588640008211F /* MusicDelegate.h */,
 				72184A3D192588640008211F /* MusicDelegate.m */,
+				72CAE97319293DC900E8CEA5 /* Black Dot.png */,
+				72CAE97519293F5800E8CEA5 /* Purple Dot.png */,
+				72CAE97119293C0600E8CEA5 /* Blue Dot.png */,
+				72CAE9771929412C00E8CEA5 /* Light Blue Dot.png */,
+				72CAE97E192946D000E8CEA5 /* CarolusRex(Sv).m4a */,
+				72CAE97C192946C600E8CEA5 /* ThroughTheFireAndFlames.m4a */,
+				72CAE97A1929469000E8CEA5 /* UnforgivingBlade.m4a */,
 			);
 			path = PegJumper;
 			sourceTree = "<group>";
@@ -237,8 +273,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CAE97F192946D000E8CEA5 /* CarolusRex(Sv).m4a in Resources */,
+				72CAE97D192946C600E8CEA5 /* ThroughTheFireAndFlames.m4a in Resources */,
+				72CAE97B1929469000E8CEA5 /* UnforgivingBlade.m4a in Resources */,
+				72CAE97419293DC900E8CEA5 /* Black Dot.png in Resources */,
+				72CAE97619293F5800E8CEA5 /* Purple Dot.png in Resources */,
 				72BFB47E1919098B00F1A8C8 /* InfoPlist.strings in Resources */,
 				72BFB4861919098B00F1A8C8 /* Images.xcassets in Resources */,
+				72CAE9781929412C00E8CEA5 /* Light Blue Dot.png in Resources */,
+				72CAE97219293C0600E8CEA5 /* Blue Dot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				72BFB4841919098B00F1A8C8 /* AppDelegate.m in Sources */,
+				727FC14C1929597900682CF9 /* BoardView.m in Sources */,
 				72184A3E192588640008211F /* MusicDelegate.m in Sources */,
+				72CAE96B19293BED00E8CEA5 /* PegButton.m in Sources */,
 				72BFB4AD1919FD1200F1A8C8 /* PegData.m in Sources */,
 				72BFB4801919098B00F1A8C8 /* main.m in Sources */,
-				72C0809E1922463000C02E02 /* HellBunny.m in Sources */,
+				72CAE96719293BB600E8CEA5 /* HellBunny.m in Sources */,
+				72CAE96E19293BF900E8CEA5 /* GameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

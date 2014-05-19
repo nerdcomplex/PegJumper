@@ -16,7 +16,7 @@
 {
     self = [super init];
     
-    if ([name hasPrefix:@"Triangle"]&&size>=3) {
+    if ([name isEqualToString:@"Triangle"]&&size>=3) {
         self.data = [[NSMutableArray alloc] init];
         for (int i=1; i<=size; i++) {
             NSMutableArray *row = [[NSMutableArray alloc] init];

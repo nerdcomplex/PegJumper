@@ -24,12 +24,13 @@
 {
     self = [super init];
     
+    //Play a random song.
     self.songs = [NSArray arrayWithObjects:
-                  [NSURL fileURLWithPath:@"/Users/brshapiro/PegJumper/PegJumper/ThroughTheFireAndFlames.m4a"],
-                  [NSURL fileURLWithPath:@"/Users/brshapiro/PegJumper/PegJumper/CarolusRex(Sv).m4a"],
-                  [NSURL fileURLWithPath:@"/Users/brshapiro/PegJumper/PegJumper/UnforgivingBlade.m4a"], nil];
+                  [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"UnforgivingBlade" ofType:@"m4a"]],
+                  [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"ThroughTheFireAndFlames" ofType:@"m4a"]],
+                  [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"CarolusRex(Sv)" ofType:@"m4a"]], nil];
     self.song = arc4random()%3;
-    self.player=[[AVAudioPlayer alloc]initWithContentsOfURL:[self.songs objectAtIndex:self.song] error:nil];
+    self.player=[[AVAudioPlayer alloc] initWithContentsOfURL:[self.songs objectAtIndex:self.song] error:nil];
     [self.player setDelegate:self];
     [self.player play];
     
@@ -38,6 +39,7 @@
 
 -(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
+    //When the current song finishes, play a different random song.
     NSMutableArray *temp = [NSMutableArray arrayWithObjects:@0,@1,@2, nil];
     [temp removeObjectAtIndex:self.song];
     self.song = [[temp objectAtIndex:arc4random()%2] intValue];
