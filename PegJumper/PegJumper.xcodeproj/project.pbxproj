@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C79D5E192B7EF400B24A83 /* XIIIBoardShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C79D58192B7EF400B24A83 /* XIIIBoardShapeViewController.m */; };
+		15C79D5F192B7EF400B24A83 /* XIIIStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C79D5A192B7EF400B24A83 /* XIIIStatisticsViewController.m */; };
+		15C79D60192B7EF400B24A83 /* XIIIStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C79D5C192B7EF400B24A83 /* XIIIStats.m */; };
+		15C79D64192B7F0F00B24A83 /* XIIIOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C79D62192B7F0F00B24A83 /* XIIIOptionsViewController.m */; };
+		15C79D65192B7F0F00B24A83 /* XIIIStatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C79D63192B7F0F00B24A83 /* XIIIStatisticsViewController.xib */; };
+		15C79D68192B7F1800B24A83 /* XIIIOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C79D66192B7F1800B24A83 /* XIIIOptionsViewController.xib */; };
+		15C79D69192B7F1800B24A83 /* XIIIBoardShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C79D67192B7F1800B24A83 /* XIIIBoardShapeViewController.xib */; };
 		72184A3919257E260008211F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72184A3819257E260008211F /* AVFoundation.framework */; };
 		72184A3E192588640008211F /* MusicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72184A3D192588640008211F /* MusicDelegate.m */; };
 		727FC14C1929597900682CF9 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727FC14B1929597900682CF9 /* BoardView.m */; };
@@ -46,6 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C79D58192B7EF400B24A83 /* XIIIBoardShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIIIBoardShapeViewController.m; sourceTree = "<group>"; };
+		15C79D59192B7EF400B24A83 /* XIIIBoardShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIIIBoardShapeViewController.h; sourceTree = "<group>"; };
+		15C79D5A192B7EF400B24A83 /* XIIIStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIIIStatisticsViewController.m; sourceTree = "<group>"; };
+		15C79D5B192B7EF400B24A83 /* XIIIStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIIIStats.h; sourceTree = "<group>"; };
+		15C79D5C192B7EF400B24A83 /* XIIIStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIIIStats.m; sourceTree = "<group>"; };
+		15C79D5D192B7EF400B24A83 /* XIIIStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIIIStatisticsViewController.h; sourceTree = "<group>"; };
+		15C79D61192B7F0F00B24A83 /* XIIIOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIIIOptionsViewController.h; sourceTree = "<group>"; };
+		15C79D62192B7F0F00B24A83 /* XIIIOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIIIOptionsViewController.m; sourceTree = "<group>"; };
+		15C79D63192B7F0F00B24A83 /* XIIIStatisticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIIIStatisticsViewController.xib; sourceTree = "<group>"; };
+		15C79D66192B7F1800B24A83 /* XIIIOptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIIIOptionsViewController.xib; sourceTree = "<group>"; };
+		15C79D67192B7F1800B24A83 /* XIIIBoardShapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIIIBoardShapeViewController.xib; sourceTree = "<group>"; };
 		72184A3819257E260008211F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		72184A3C192588640008211F /* MusicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDelegate.h; sourceTree = "<group>"; };
 		72184A3D192588640008211F /* MusicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDelegate.m; sourceTree = "<group>"; };
@@ -154,6 +172,17 @@
 				727FC14A1929597900682CF9 /* BoardView.h */,
 				727FC14B1929597900682CF9 /* BoardView.m */,
 				72BFB4851919098B00F1A8C8 /* Images.xcassets */,
+				15C79D59192B7EF400B24A83 /* XIIIBoardShapeViewController.h */,
+				15C79D58192B7EF400B24A83 /* XIIIBoardShapeViewController.m */,
+				15C79D67192B7F1800B24A83 /* XIIIBoardShapeViewController.xib */,
+				15C79D5D192B7EF400B24A83 /* XIIIStatisticsViewController.h */,
+				15C79D5A192B7EF400B24A83 /* XIIIStatisticsViewController.m */,
+				15C79D63192B7F0F00B24A83 /* XIIIStatisticsViewController.xib */,
+				15C79D61192B7F0F00B24A83 /* XIIIOptionsViewController.h */,
+				15C79D62192B7F0F00B24A83 /* XIIIOptionsViewController.m */,
+				15C79D66192B7F1800B24A83 /* XIIIOptionsViewController.xib */,
+				15C79D5B192B7EF400B24A83 /* XIIIStats.h */,
+				15C79D5C192B7EF400B24A83 /* XIIIStats.m */,
 				72BFB47A1919098B00F1A8C8 /* Supporting Files */,
 				72CAE96819293BBE00E8CEA5 /* HellBunny.h */,
 				72CAE96619293BB600E8CEA5 /* HellBunny.m */,
@@ -273,13 +302,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C79D69192B7F1800B24A83 /* XIIIBoardShapeViewController.xib in Resources */,
 				72CAE97F192946D000E8CEA5 /* CarolusRex(Sv).m4a in Resources */,
 				72CAE97D192946C600E8CEA5 /* ThroughTheFireAndFlames.m4a in Resources */,
 				72CAE97B1929469000E8CEA5 /* UnforgivingBlade.m4a in Resources */,
 				72CAE97419293DC900E8CEA5 /* Black Dot.png in Resources */,
+				15C79D65192B7F0F00B24A83 /* XIIIStatisticsViewController.xib in Resources */,
 				72CAE97619293F5800E8CEA5 /* Purple Dot.png in Resources */,
 				72BFB47E1919098B00F1A8C8 /* InfoPlist.strings in Resources */,
 				72BFB4861919098B00F1A8C8 /* Images.xcassets in Resources */,
+				15C79D68192B7F1800B24A83 /* XIIIOptionsViewController.xib in Resources */,
 				72CAE9781929412C00E8CEA5 /* Light Blue Dot.png in Resources */,
 				72CAE97219293C0600E8CEA5 /* Blue Dot.png in Resources */,
 			);
@@ -300,9 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C79D64192B7F0F00B24A83 /* XIIIOptionsViewController.m in Sources */,
 				72BFB4841919098B00F1A8C8 /* AppDelegate.m in Sources */,
 				727FC14C1929597900682CF9 /* BoardView.m in Sources */,
 				72184A3E192588640008211F /* MusicDelegate.m in Sources */,
+				15C79D5E192B7EF400B24A83 /* XIIIBoardShapeViewController.m in Sources */,
+				15C79D5F192B7EF400B24A83 /* XIIIStatisticsViewController.m in Sources */,
+				15C79D60192B7EF400B24A83 /* XIIIStats.m in Sources */,
 				72CAE96B19293BED00E8CEA5 /* PegButton.m in Sources */,
 				72BFB4AD1919FD1200F1A8C8 /* PegData.m in Sources */,
 				72BFB4801919098B00F1A8C8 /* main.m in Sources */,
